@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Users/ishik/OneDrive/Desktop/DataStru&Algo/Vectors",
+      "program": "c:/Users/ishik/OneDrive/Desktop/DataStru&Algo/Vectors/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
