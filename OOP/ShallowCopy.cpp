@@ -31,6 +31,12 @@ using namespace std;
         mileage = original.mileage; // Shallow Copy: copies the reference of mileage
     }
 
+    //Destructor
+    //In shallow copy same dynamically allocated memory destructor must not independently delete the same shared pointer.
+    ~Car(){
+        cout<< "Destructor called " << endl;
+    }
+
  };
 
 int main(){

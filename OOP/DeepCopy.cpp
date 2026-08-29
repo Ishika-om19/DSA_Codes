@@ -31,6 +31,17 @@ class Car{
         mileage = new int;
         *(mileage) = *(original.mileage);  // Deep copy
     }
+
+    //Destructor
+    //obbjects are destroyed in reverse order of creation,we use deep copy so c1 & c2 have different memory addresses for mileage.
+    
+    ~Car(){
+        cout << "deleting object..\n";
+        if(mileage != NULL){
+            delete mileage;
+            mileage = NULL;
+        }
+    }
 };
 
 int main(){
