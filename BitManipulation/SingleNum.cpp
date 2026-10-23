@@ -27,7 +27,7 @@ public:
 
 int main(){
     Solution s;
-    vector<int> nums = {3, 2, 1, 5, 0, 1};
+    vector<int> nums = {1, 2, 1, 3, 2, 5};
     vector<int> ans = s.singleNumber(nums);
     cout << ans[0]<<" " << ans[1]<< endl;
     return 0;
